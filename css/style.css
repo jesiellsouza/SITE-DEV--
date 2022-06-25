@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    background-color: whitesmoke;
+}
+/*começo barra de navegaçao*/
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-logo a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color: greenyellow;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar-links a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.navbar-links a:hover {
+    border-bottom: 1px solid white;
+}
+
+/*final barra de navegaçao*/
+
+/*imagen topo*/
+.img-topo {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.img-topo p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    font-family: monospace;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+}
+/*final imagen topo*/
+
+/*começo bem vindo*/
+.bemvindo {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.bemvindo-escrita {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    width: 500px;
+}
+
+.bemvindo-linha {
+    width: 20%;
+    height: 5px;
+    border: none;
+    background-color: greenyellow;
+    transition: 0.9s;
+}
+
+.bemvindo-linha:hover {
+    width: 100%;
+    cursor: pointer;
+}
+
+.bemvindo-escrita h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 45px;
+    color: black;
+}
+
+.bemvindo-escrita span {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.bemvindo-escrita p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: gray;
+    line-height: 23px;
+}
+
+.buttonSaiba {
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.buttonSaiba:hover {
+    cursor: pointer;
+    background-color: rgb(189, 250, 96);
+}
+
+.bemvindo-img {
+    display: flex;
+    width: 500px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.imgbemvindo {
+    display: flex;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 2px white;
+}
+/*final bem vindo*/
+
+/*inicio-serviços*/
+.servicos-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: black;
+}
+
+.servico {
+    display: flex;
+    width: 250px;
+    height: 370px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.4s;
+}
+
+.servico:hover {
+    background-color: rgb(17, 16, 16);
+}
+
+.img-servicos {
+    width: 230px;
+    height: 130px;
+}
+
+.servico h3 {
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: white;
+}
+
+.servico p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+.servico button {
+    width: 180px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+.servico button:hover {
+    cursor: pointer;
+}
+/*final-serviços*/
+
+/*inicio-portfolio*/
+
+.title-portfolio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+}
+
+.portfolio-img img{
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+/*final-portfolio*/
+
+/*inicio-seta-de-inicio*/
+.seta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin: 5px 5px;
+    float: right;
+    position: sticky;
+    top: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: greenyellow;
+}
+
+.seta a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    transition: 0.4s;
+}
+
+.seta:hover {
+    background-color: rgb(149, 236, 18);
+}
+/*final-seta-de-inicio*/
+

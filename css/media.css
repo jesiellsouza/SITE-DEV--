@@ -1,0 +1,39 @@
+@media (max-width:1010px) {
+    .bemvindo-img {
+        display: none;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 530px) {
+    .navbar {
+        background-color: black;
+        height: auto;
+    }
+    .navbar-links {
+        font-size: 15px;
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .portfolio-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .portfolio-img img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .portfolio-img img {
+        width: 100%;
+        height: auto;
+    }
+}
