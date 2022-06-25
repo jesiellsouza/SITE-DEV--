@@ -29,11 +29,21 @@
         width: 100%;
         height: auto;
     }
+    .navbar-links {
+        font-size: 13px;
+        gap: 5px;
+        padding: 4px;
+    }
 }
 
 @media (max-width: 360px) {
     .portfolio-img img {
         width: 100%;
         height: auto;
+    }
+    .navbar-links {
+        font-size: 13px;
+        gap: 5px;
+        padding: 4px;
     }
 }
