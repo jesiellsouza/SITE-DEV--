@@ -28,7 +28,9 @@
         width: 300px;
         
     }
-    
+    .rodape-contato a {
+        font-size: 15px;
+    }
     
 }
 
