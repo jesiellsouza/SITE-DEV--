@@ -1,10 +1,35 @@
-@media (max-width:1010px) {
-    .bemvindo-img {
-        display: none;
+@media (max-width: 360px) {
+    .portfolio-img img {
+        width: 100%;
+        height: auto;
     }
-    .navbar {
-        flex-direction: column;
+    .navbar-links {
+        font-size: 13px;
+        gap: 5px;
+        padding: 4px;
     }
+    
+}
+
+@media (max-width: 400px) {
+    .portfolio-img img {
+        width: 100%;
+        height: auto;
+    }
+    .navbar-links {
+        font-size: 13px;
+        gap: 5px;
+        padding: 4px;
+    }
+    .contato-content input {
+        width: 300px;
+    }
+    .contato-content .textarea {
+        width: 300px;
+        
+    }
+    
+    
 }
 
 @media (max-width: 530px) {
@@ -24,26 +49,27 @@
     }
 }
 
-@media (max-width: 400px) {
-    .portfolio-img img {
-        width: 100%;
-        height: auto;
-    }
-    .navbar-links {
-        font-size: 13px;
+@media (max-width: 900px) {
+    .contato {
         gap: 5px;
-        padding: 4px;
+    }
+    .contato-content .textarea {
+        width: 300px;
+        
+    }
+    .contato-button button {
+        width: 300px;
+    }
+    .contato {
+        gap: 3px;
     }
 }
 
-@media (max-width: 360px) {
-    .portfolio-img img {
-        width: 100%;
-        height: auto;
+@media (max-width:1010px) {
+    .bemvindo-img {
+        display: none;
     }
-    .navbar-links {
-        font-size: 13px;
-        gap: 5px;
-        padding: 4px;
+    .navbar {
+        flex-direction: column;
     }
 }

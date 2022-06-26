@@ -292,3 +292,87 @@ body {
 }
 /*final-seta-de-inicio*/
 
+/*inicio-contato*/
+.title-contato {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.title-contato span {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+}
+
+.contato-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato-content form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-content input {
+    display: flex;
+    margin: 2px 0;
+    width: 450px;
+    height: 35px;
+    background-color: gainsboro;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.contato-content .textarea {
+    display: flex;
+    border: none;
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+.contato-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contato-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    width: 870px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: greenyellow;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+
+.contato-button button:hover {
+    cursor: pointer;
+    background-color: rgb(189, 250, 96);
+}
