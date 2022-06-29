@@ -14,11 +14,13 @@ body {
 /*começo barra de navegaçao*/
 .navbar {
     width: 100%;
-    height: 100px;
+    height: 90px;
     background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 .navbar-logo a {
@@ -82,6 +84,7 @@ body {
     padding: 5px;
     flex-wrap: wrap;
     margin: 20px auto;
+    margin-top: 90px;
 }
 
 .bemvindo-escrita {
@@ -168,6 +171,7 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     background-color: black;
+    margin-top: 90px;
 }
 
 .servico {
@@ -236,6 +240,7 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px;
+    margin-top: 90px;
 }
 
 .portfolio {
@@ -301,6 +306,7 @@ body {
     text-align: center;
     background-color: whitesmoke;
     padding: 10px;
+    margin-top: 90px;
 }
 
 .title-contato span {
