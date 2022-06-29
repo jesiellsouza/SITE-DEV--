@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@400;500;600;800&display=swap');
 
 * {
     padding: 0;
@@ -24,8 +24,14 @@ body {
 }
 
 .navbar-logo a {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    transition: 0.4s;
+}
+
+.navbar-logo a:hover {
     color: greenyellow;
 }
 
@@ -271,7 +277,6 @@ body {
     padding: 3px;
     margin: 5px 5px;
     float: right;
-    position: sticky;
     top: 15px;
     width: 50px;
     height: 30px;
@@ -393,7 +398,7 @@ body {
     padding: 10px;
     background-color: black;
 }
-
+/*inicio-logo*/
 .rodape-logo {
     display: flex;
     justify-content: center;
@@ -403,16 +408,17 @@ body {
 }
 
 .rodape-logo a {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 600;
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     transition: 0.4s;
 }
 
 .rodape-logo a:hover {
     color: greenyellow;
 }
-
+/*inicio-contato*/
 .rodape-contato {
     display: flex;
     flex-direction: column;
@@ -432,7 +438,7 @@ body {
 .rodape-contato a:hover {
     color: greenyellow;
 }
-
+/*inicio-img*/
 .rodape-img {
     display: flex;
     justify-content: space-around;
@@ -452,7 +458,7 @@ body {
     display: flex;
     width: 150px;
 }
-
+/*inicio-criador*/
 .rodape-criador {
     display: flex;
     justify-content: center;
@@ -468,7 +474,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     font-size: 15px;
-    text-decoration: underline;
 }
 
 .rodape-criador a {
@@ -480,11 +485,4 @@ body {
     color: greenyellow;
 }
 
-.direito {
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    color: white;
-    padding: 8px;
-}
 /*final-rodape*/
