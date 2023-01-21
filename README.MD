@@ -30,7 +30,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Site web onde coloquei projetos que desenvolvir com base no meu aprendizado.
+Site web que desenvolvir com base no meu aprendizado.
 
 ## :memo: Licença
 
